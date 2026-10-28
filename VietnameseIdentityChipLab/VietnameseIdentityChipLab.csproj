@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-android</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationTitle>Vietnamese Identity Chip Lab</ApplicationTitle>
+    <ApplicationId>vn.hoctap.nfcreader</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <SupportedOSPlatformVersion>23</SupportedOSPlatformVersion>
+    <AndroidNeedsInternetPermission>false</AndroidNeedsInternetPermission>
+    <RunAOTCompilation>false</RunAOTCompilation>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Icao9303.Core\Icao9303.Core.csproj" />
+    <PackageReference Include="Emrtd" Version="0.1.0" />
+    <PackageReference Include="Xamarin.AndroidX.Core" Version="1.19.0.1" />
+    <PackageReference Include="Xamarin.Google.MLKit.TextRecognition" Version="116.0.1.9" />
+  </ItemGroup>
+</Project>

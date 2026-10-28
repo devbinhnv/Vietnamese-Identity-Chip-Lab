@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+    <ProjectReference Include="..\Icao9303.Core\Icao9303.Core.csproj" />
+    <Compile Include="..\VietnameseIdentityChipLab\Features\Mrz\MrzAccess.cs" Link="MrzAccess.cs" />
+    <Compile Include="..\VietnameseIdentityChipLab\Features\Mrz\LiveMrzCandidate.cs" Link="LiveMrzCandidate.cs" />
+    <Compile Include="..\VietnameseIdentityChipLab\Features\Mrz\MrzScanDecision.cs" Link="MrzScanDecision.cs" />
+    <Compile Include="..\VietnameseIdentityChipLab\Features\Mrz\MrzRegionDetector.cs" Link="MrzRegionDetector.cs" />
+    <Compile Include="..\VietnameseIdentityChipLab\Features\Mrz\MrzImageMath.cs" Link="MrzImageMath.cs" />
+    <Compile Include="..\VietnameseIdentityChipLab\Features\Chip\ChipMrzResult.cs" Link="ChipMrzResult.cs" />
+    <Compile Include="..\VietnameseIdentityChipLab\Features\Nfc\NfcReadFeedback.cs" Link="NfcReadFeedback.cs" />
+  </ItemGroup>
+</Project>
