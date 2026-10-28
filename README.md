@@ -1,4 +1,4 @@
-# Vietnamese Identity Chip Lab — Dự án học tập quét MRZ và đọc chip CCCD trên Android
+# Vietnamese Identity Chip Lab — Tìm hiểu quét MRZ và đọc chip CCCD trên Android
 
 ## Giới thiệu và mục đích
 
